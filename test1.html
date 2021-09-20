@@ -6,29 +6,60 @@
 <base href = "https://www.baidu.com/" target = "_blank" >
 </head>
 <body>
-    <h1>小马标题</h1>
-    <p style = "font-family: Verdana;">好多的段落略略
+    
+    <div id = "header" style ="background-color: honeydew;"><h1>小马标题</h1></div>
+    
+
+    <p style = "font-family: arial;color: darksalmon;font-size: 24px;">这是字体，颜色，大小的样式</p>
+ 
+    <a href = "#C4">第四章</a>
+        <p style = "background-color:ghostwhite;">创建图片链接
+            <a href = "https://www.baidu.com/">
+            这是通往百度的链接</a>
+        </p>
+
+    <p>两行三列<a id = "#C4"></a><!---id跳转-->
+        <table border="2" cellpadding = "2" cellspacing = "2">
+        <tr><!---标题占两列-->
+            <th>Head</th>
+            <th colspan="2">Tailor</th>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>ddd</li>
+                </ul>
+            </td>
+            <td>eee</td>
+            <td>fff</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Alice</td>
+            <td colspan="2">John</td>
+        </tr>
+        <tr>
+            <td colspan="2">William</td>
+        </tr>
+        
+        </table>
+        <ul>无序列表
+            <li>Potato</li>
+        </ul>
+        <ol>有序列表
+            <li>Apple</li>
+            <li>Pearl</li>
+        </ol>
+        <dl>自定义列表
+            <dt>Coffee</dt>
+            <dd>American Ice</dd>
+            <dt>Juice</dt>
+            <dd>Orange</dd>
+        </dl>
+
     </p>
-
-    <p style = "font-family: arial;color: darksalmon;font-size: 24px;">这是字体，颜色，大小的样式
-    </p>>
-
-    <a href = "https://www.baidu.com/" >这是跳转百度的哈哈</a>
-    <a href="https://www.runoob.com/html/html-links.html#tips">访问有用的提示部分</a>
-
-    <p style = "background-color: darkolivegreen;">创建图片链接
-        <a href = "https://www.baidu.com/">
-        <img border = "0" src = "img/10.jpg" alt="THE FIRST" width ="200" height="100"></a>
-    </p>
-
-    <p><a href = "#C4">第四章</a>
-    </p>
-
-    <p><a id = "#C4"></a><!---id跳转-->
-    </p>
-
+ 
     <hr>
-    <!---这是注释-->>
-    <br/><img loading ="one" src = "img/11.jpg" width = "250" height="134b" />
+    <!---这是注释-->
+    <br/>
 </body>
 </html>
